@@ -61,6 +61,9 @@ img{
 }
 
 @media only screen and (max-width:391px){
+    h1{
+        font-size: 1.4rem;
+    }
     .choice{
         height: 100px;
         width: 80px;
