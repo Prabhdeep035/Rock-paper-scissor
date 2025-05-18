@@ -48,7 +48,7 @@ img{
 
 .msg-container
 {
-        margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 #msg{
@@ -58,4 +58,23 @@ img{
     display: inline;
     border-radius: 1rem;
     padding: 1rem;
+}
+
+@media only screen and (max-width:391px){
+    .choice{
+        height: 100px;
+        width: 80px;
+        margin-right: 2rem;
+        margin-top: 5rem;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+    }
+    .score-board{
+        font-size: 1.4rem;
+    }
+    #msg{
+        font-size: 1.4rem;
+    }
 }
